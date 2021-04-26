@@ -1,10 +1,10 @@
 <script>
     function sendValue(){
     
-    var instahandler=document.getElementById('handler').innerHTML; 
-        alert(instahandler);
+    var promocode=document.getElementById('get_promo_code').innerHTML; 
+        alert(promocode);
         
-        window.location = '/step-1?Instahandler=' + instahandler;
+        window.location = '/step-1?Instahandler=' + promocode;
     }
 
     document.getElementById('testbutton').onclick=sendValue;
